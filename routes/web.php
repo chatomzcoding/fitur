@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\ItemsController;
 use App\Http\Controllers\Latihan\DragdropController;
 use App\Http\Controllers\Latihan\DragdroptabelController;
 use App\Http\Controllers\Latihan\HomeController;
@@ -18,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomepageController::class,'index']);
+
+Route::resource('item',ItemsController::class);
 
 Route::get('dragdrop', [DragdropController::class,'index']);
 Route::post('upload', [DragdropController::class,'upload']);

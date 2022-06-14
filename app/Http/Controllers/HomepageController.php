@@ -15,6 +15,11 @@ class HomepageController extends Controller
                 'status' => 'success'
             ],
             [
+                'nama' => 'Drag Data Update Auto',
+                'url' => 'item',
+                'status' => 'success'
+            ],
+            [
                 'nama' => 'tanda tangan digital',
                 'url' => 'latihan/signaturepad',
                 'status' => 'success'
