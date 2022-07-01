@@ -3,12 +3,24 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use zelnaradev\universe\Universal;
 
 class HomepageController extends Controller
 {
     public function index()
     {
+
         $fitur = [
+            [
+                'nama' => 'Crop Images',
+                'url' => 'latihan/crop',
+                'status' => 'success'
+            ],
+            [
+                'nama' => 'Package Zelnara\Universe',
+                'url' => 'latihan/universal',
+                'status' => 'primary'
+            ],
             [
                 'nama' => 'Select dengan ajax',
                 'url' => 'latihan/select2ajax',

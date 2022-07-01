@@ -42,7 +42,7 @@
             <!-- <h2 class="text-center">PHP infinite scroll pagination</h2> -->
             <br />
             <div class="col-md-12" id="post-data">
-            @include('latihan.infinitescroll.data')
+                @include('latihan.infinitescroll.data')
             </div>
         </div>
 

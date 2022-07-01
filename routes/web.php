@@ -39,6 +39,8 @@ Route::get('skeleton', [HomeController::class,'skeleton'])->name('skeleton');
 Route::get('getdata', [HomeController::class,'getdata'])->name('getdata');
 Route::post('prosesform', [HomeController::class,'proses']);
 Route::get('latihan/{sesi}', [HomeController::class,'latihan']);
+// simpan hasil crop
+Route::post('uploadgambar', [HomeController::class,'upload']);
 
 
 
